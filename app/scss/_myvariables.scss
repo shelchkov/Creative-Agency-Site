@@ -1,0 +1,42 @@
+$font-family-sans-serif: 'Roboto' !important;
+
+$navbar-light-color:                white !default;
+$navbar-light-active-color: 		#00e0d0 !default;
+$navbar-light-hover-color:          #00e0d0 !default;
+
+$navbar-brand-font-size: 			30 !default;
+$font-weight-lighter:				100 !default;
+
+$display4-size:						32 !default;
+$display4-weight:					900 !default;
+
+$jumbotron-color:					white !default;
+$btn-font-size-lg:					16 !default;
+$btn-border-radius-lg:				2 !default;
+$primary:							#0abab3 !default;
+
+$display3-size:						22 !default;
+$display3-weight:					700 !default;
+
+$input-font-size:					14 !default;
+$input-font-weight:					300 !default;
+$input-color:						#413d4b !default;
+$input-padding-y:					1rem !default;
+$input-padding-x:					.9rem !default;
+$input-border-color:				#e5e5e5 !default;
+$input-border-radius:				2px !default;
+$input-focus-border-color:			$input-border-color !default;
+$form-group-margin-bottom:			1.4rem !default;
+
+$link-color:						#413d4b !default;
+
+$secondary:							#9f98b1 !default;
+$purple:							#372d5c !default;
+$info:								$purple !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 900px,
+  xl: 1000px
+) !default;
