@@ -1,4 +1,5 @@
 require('./gulp/tasks/sass');
+require('./gulp/tasks/watch');
 
 var gulp = require('gulp'),
 	useref = require('gulp-useref'),
