@@ -4,12 +4,12 @@ var gulp = require('gulp'),
 	autoprefixer = require('autoprefixer');
 
 gulp.task('sass', function() {
-	return gulp.src('./app/scss/**/*.scss')
+	return gulp.src('./app/assets/styles/styles.scss')
 		.pipe(sass({ includePaths: "./node_modules"}))
 		.pipe(postcss([autoprefixer]))
 		.on('error', function(error) {
 			console.log(error);
 			this.emit('end');
 		})
-		.pipe(gulp.dest('./app/css'))
+		.pipe(gulp.dest('./app/temp/styles'));
 });
