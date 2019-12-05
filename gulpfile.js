@@ -1,10 +1,11 @@
 require('./gulp/tasks/sass');
 require('./gulp/tasks/watch');
+require('./gulp/tasks/sprites');
 
 var gulp = require('gulp'),
-	useref = require('gulp-useref'),
-	uglify = require('gulp-uglify'),
-	gulpIf = require('gulp-if');
+	useref = require('gulp-useref');
+// var	uglify = require('gulp-uglify'),
+// 	gulpIf = require('gulp-if');
 
 
 gulp.task('useref', function() {
