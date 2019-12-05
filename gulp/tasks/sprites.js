@@ -4,7 +4,12 @@ var gulp = require('gulp'),
 const config = {
 	mode: {
 		css: {
-			sprite: 'sprite.svg'
+			sprite: 'sprite.svg',
+			render: {
+				sass: {
+					template: './gulp/templates/sprite.scss'
+				}
+			}
 		}
 	}
 }
