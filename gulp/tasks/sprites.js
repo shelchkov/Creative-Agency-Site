@@ -10,14 +10,14 @@ const config = {
 }
 
 gulp.task('createSprite', function() {
-	return gulp.src('./app/images/icons/**/*.svg')
+	return gulp.src('./app/assets/images/icons/**/*.svg')
 		.pipe(svgSprite(config))
 		.pipe(gulp.dest('./app/temp/sprite'));
 });
 
 gulp.task('copySpriteGraphic', gulp.series('createSprite', function() {
 	return gulp.src('./app/temp/sprite/css/**/*.svg')
-		.pipe(gulp.dest('./app/images/sprites'));
+		.pipe(gulp.dest('./app/assets/images/sprites'));
 }));
 
 gulp.task('icons', gulp.series('copySpriteGraphic'));
