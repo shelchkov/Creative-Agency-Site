@@ -14,3 +14,10 @@ gulp.task('createSprite', function() {
 		.pipe(svgSprite(config))
 		.pipe(gulp.dest('./app/temp/sprite'));
 });
+
+gulp.task('copySpriteGraphic', gulp.series('createSprite', function() {
+	return gulp.src('./app/temp/sprite/css/**/*.svg')
+		.pipe(gulp.dest('./app/images/sprites'));
+}));
+
+gulp.task('icons', gulp.series('copySpriteGraphic'));
