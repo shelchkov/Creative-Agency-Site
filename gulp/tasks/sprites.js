@@ -1,12 +1,13 @@
 var gulp = require('gulp'),
-	svgSprite = require('gulp-svg-sprite');
+	svgSprite = require('gulp-svg-sprite'),
+	rename = require('gulp-rename');
 
 const config = {
 	mode: {
 		css: {
 			sprite: 'sprite.svg',
 			render: {
-				sass: {
+				scss: {
 					template: './gulp/templates/sprite.scss'
 				}
 			}
@@ -25,4 +26,11 @@ gulp.task('copySpriteGraphic', gulp.series('createSprite', function() {
 		.pipe(gulp.dest('./app/assets/images/sprites'));
 }));
 
-gulp.task('icons', gulp.series('copySpriteGraphic'));
+gulp.task('copySpriteSASS', function() {
+	return gulp.src('./app/temp/sprite/css/*.scss')
+		.pipe(rename('_sprite.scss'))
+		.pipe(gulp.dest('./app/assets/styles/modules'))
+});
+
+gulp.task('icons', gulp.series('copySpriteGraphic', 
+	gulp.series('copySpriteSASS')));
