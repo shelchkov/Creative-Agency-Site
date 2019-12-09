@@ -8258,7 +8258,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* Hero Section */
 .jumbotron {
-  background: #372c5c url("../images/header.png") no-repeat center center/cover;
+  background: #372c5c url("/assets/images/header.png") no-repeat center center/cover;
   height: 100vh;
   margin: 0; }
 
@@ -8270,7 +8270,7 @@ hr {
   width: 50px; }
 
 .watch-video {
-  background: #312950 url("../images/backdrop.png") no-repeat center center/cover;
+  background: #312950 url("/assets/images/backdrop.png") no-repeat center center/cover;
   height: 70vh; }
 
 .play-video:hover {
@@ -8291,7 +8291,7 @@ hr {
 
 #Teams {
   color: white;
-  background: #312950 url("../images/backdrop-team.png") no-repeat center center/cover; }
+  background: #312950 url("/assets/images/backdrop-team.png") no-repeat center center/cover; }
 
 .work {
   max-width: 380px;
@@ -8303,7 +8303,7 @@ hr {
 
 #Testimonials {
   color: white;
-  background: #312950 url("../images/backdrop-testimonials.png") no-repeat center center/cover; }
+  background: #312950 url("/assets/images/backdrop-testimonials.png") no-repeat center center/cover; }
 
 #Testimonials .comment {
   margin-top: -2rem; }
@@ -8358,7 +8358,7 @@ form {
   max-width: 460px; }
 
 footer {
-  background: #312950 url("../images/backdrop-footer.png") no-repeat center center/cover;
+  background: #312950 url("/assets/images/backdrop-footer.png") no-repeat center center/cover;
   color: white; }
 
 footer a {
