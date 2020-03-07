@@ -1,0 +1,36 @@
+$separator-style: 1px solid;
+$separator-color: #413d4b;
+
+.separator-bottom {
+	border-bottom: $separator-style $separator-color;
+}
+
+@media (max-width: 36rem) {
+	.separator-bottom-s {
+		border-bottom: $separator-style $separator-color;
+	}
+}
+
+@media (max-width: 61.9375rem) {
+	.separator-bottom-m {
+		border-bottom: $separator-style $separator-color;
+	}
+}
+
+@media (min-width: 36rem) and (max-width: 61.9375rem) {
+	.separator-right-m {
+		border-right: $separator-style $separator-color;
+	}
+}
+
+@media (min-width: 62rem) {
+	.separator-right-h {
+		border-right: $separator-style $separator-color;
+	}
+}
+
+@media (min-width: 62rem) {
+	.separator-right-h {
+		border-right: $separator-style $separator-color;
+	}
+}
