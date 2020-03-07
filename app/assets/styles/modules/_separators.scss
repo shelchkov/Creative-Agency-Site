@@ -1,11 +1,11 @@
 $separator-style: 1px solid;
-$separator-color: #413d4b;
+$separator-color: #c6c4c9;
 
 .separator-bottom {
 	border-bottom: $separator-style $separator-color;
 }
 
-@media (max-width: 36rem) {
+@media (max-width: 35.9375rem) {
 	.separator-bottom-s {
 		border-bottom: $separator-style $separator-color;
 	}

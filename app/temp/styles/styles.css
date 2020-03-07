@@ -8503,24 +8503,28 @@ footer .form-control:focus {
   background-position: 92.70833333333333% 55.55555555555556%; }
 
 .separator-bottom {
-  border-bottom: 1px solid #413d4b; }
+  border-bottom: 1px solid #c6c4c9; }
 
-@media (max-width: 36rem) {
+@media (max-width: 35.9375rem) {
   .separator-bottom-s {
-    border-bottom: 1px solid #413d4b; } }
+    border-bottom: 1px solid #c6c4c9; } }
 
 @media (max-width: 61.9375rem) {
   .separator-bottom-m {
-    border-bottom: 1px solid #413d4b; } }
+    border-bottom: 1px solid #c6c4c9; } }
 
 @media (min-width: 36rem) and (max-width: 61.9375rem) {
   .separator-right-m {
-    border-right: 1px solid #413d4b; } }
+    border-right: 1px solid #c6c4c9; } }
 
 @media (min-width: 62rem) {
   .separator-right-h {
-    border-right: 1px solid #413d4b; } }
+    border-right: 1px solid #c6c4c9; } }
 
 @media (min-width: 62rem) {
   .separator-right-h {
-    border-right: 1px solid #413d4b; } }
+    border-right: 1px solid #c6c4c9; } }
+
+@media (max-width: 35.9375rem) {
+  .max-width-300-s {
+    max-width: 300px; } }
