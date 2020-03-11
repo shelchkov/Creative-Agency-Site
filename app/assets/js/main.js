@@ -12,6 +12,8 @@ $('nav a').on('click', function(event) {
       800
     );
   }
+
+  $(".navbar-collapse").collapse("hide");
 });
 
 
