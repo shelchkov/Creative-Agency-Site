@@ -1,0 +1,32 @@
+$separator-style: 1px solid;
+$separator-color: #c6c4c9;
+
+.separator-bottom {
+	border-bottom: $separator-style $separator-color;
+
+	@media (max-width: 35.9375rem) {
+		&-sm {
+			border-bottom: $separator-style $separator-color;
+		}
+	}
+
+	@media (max-width: 61.9375rem) {
+		&-md {
+			border-bottom: $separator-style $separator-color;
+		}
+	}
+}
+
+.separator-right {
+	@media (min-width: 36rem) and (max-width: 61.9375rem) {
+		&-md {
+			border-right: $separator-style $separator-color;
+		}
+	}
+
+	@media (min-width: 62rem) {
+		&-lg {
+			border-right: $separator-style $separator-color;
+		}
+	}
+}
