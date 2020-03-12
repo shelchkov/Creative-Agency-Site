@@ -8501,3 +8501,24 @@ footer .form-control:focus {
   width: 35px;
   height: 35px;
   background-position: 92.70833333333333% 55.55555555555556%; }
+
+.separator-bottom {
+  border-bottom: 1px solid #c6c4c9; }
+  @media (max-width: 35.9375rem) {
+    .separator-bottom-sm {
+      border-bottom: 1px solid #c6c4c9; } }
+  @media (max-width: 61.9375rem) {
+    .separator-bottom-md {
+      border-bottom: 1px solid #c6c4c9; } }
+
+@media (min-width: 36rem) and (max-width: 61.9375rem) {
+  .separator-right-md {
+    border-right: 1px solid #c6c4c9; } }
+
+@media (min-width: 62rem) {
+  .separator-right-lg {
+    border-right: 1px solid #c6c4c9; } }
+
+@media (max-width: 35.9375rem) {
+  .max-width-300-sm {
+    max-width: 300px; } }
