@@ -1,6 +1,11 @@
 $separator-style: 1px solid;
 $separator-color: #c6c4c9;
 
+hr {
+	border-color: #00e0d0;
+	width: 50px;
+}
+
 .separator-bottom {
 	border-bottom: $separator-style $separator-color;
 
