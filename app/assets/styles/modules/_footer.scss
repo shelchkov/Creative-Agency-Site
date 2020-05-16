@@ -1,0 +1,13 @@
+footer {
+	.footer-logo {
+		margin-left: 0;
+
+		@media (min-width: 36rem) {
+			margin-left: -30px;
+		}
+
+		@media (min-width: 48rem) {
+			margin-left: 16px;
+		}
+	}
+}

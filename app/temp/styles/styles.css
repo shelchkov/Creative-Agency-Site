@@ -8522,3 +8522,12 @@ footer .form-control:focus {
 @media (max-width: 35.9375rem) {
   .max-width-300-sm {
     max-width: 300px; } }
+
+footer .footer-logo {
+  margin-left: 0; }
+  @media (min-width: 36rem) {
+    footer .footer-logo {
+      margin-left: -30px; } }
+  @media (min-width: 48rem) {
+    footer .footer-logo {
+      margin-left: 16px; } }
