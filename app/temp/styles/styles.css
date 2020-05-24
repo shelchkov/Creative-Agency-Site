@@ -8373,8 +8373,18 @@ footer .form-control {
 footer .form-control:focus {
   color: white; }
 
-.subscribe-btn {
-  padding: 14px 20px; }
+footer .subscribe {
+  margin-bottom: 1.9rem; }
+  footer .subscribe-group {
+    margin-bottom: 0; }
+    @media (max-width: 374px) {
+      footer .subscribe-group input {
+        max-width: 165px; } }
+  footer .subscribe-btn {
+    padding: 14px; }
+    @media (min-width: 375px) {
+      footer .subscribe-btn {
+        padding: 14px 20px; } }
 
 .text-decoration-none a:hover {
   text-decoration: none; }

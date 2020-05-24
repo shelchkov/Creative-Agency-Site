@@ -163,8 +163,26 @@ footer .form-control:focus {
 	color: white;
 }
 
-.subscribe-btn {
-	padding: 14px 20px;
+footer .subscribe {
+	margin-bottom: 1.9rem;
+
+	&-group {
+		margin-bottom: 0;
+
+		& input {
+			@media (max-width: 374px) {
+				max-width: 165px;
+			}
+		}
+	}
+
+	&-btn {
+		padding: 14px;
+
+		@media (min-width: 375px) {
+			padding: 14px 20px;
+		}
+	}
 }
 
 .text-decoration-none a:hover {
