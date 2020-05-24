@@ -8514,7 +8514,8 @@ footer {
   footer a:hover {
     color: #d9d9d9; }
   footer .footer-logo {
-    margin-left: 0; }
+    margin-left: 0;
+    color: #00e0d0; }
     @media (min-width: 36rem) {
       footer .footer-logo {
         margin-left: -30px; } }
