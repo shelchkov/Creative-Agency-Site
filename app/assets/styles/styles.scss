@@ -6,7 +6,7 @@
 /* Bootstrap */
 @import "node_modules/bootstrap/scss/bootstrap";
 
-/* NavBar */
+
 .navbar-light .navbar-nav .nav-link {
 	text-transform: uppercase;
 }
@@ -20,11 +20,6 @@
 
 header {
 	color: #413d4b;
-}
-
-hr {
-	border-color: #00e0d0;
-	width: 50px;
 }
 
 
@@ -69,6 +64,7 @@ hr {
 .work:hover {
 	cursor: pointer;
 }
+
 
 #Testimonials {
 	color: white;
@@ -133,34 +129,9 @@ hr {
 	font-size: 100px;
 }
 
-.max-width-300 {
-	max-width: 300px;
-}
-
 
 form {
 	max-width: 460px;
-}
-
-footer {
-	background: #312950 url('/assets/images/backdrop-footer.png') no-repeat center center/cover;
-	color: white;
-}
-
-footer a {
-	color: white;
-}
-
-footer a:hover {
-	color: darken(white, 15%);
-}
-
-footer .form-control {
-	color: white;
-}
-
-footer .form-control:focus {
-	color: white;
 }
 
 .subscribe-btn {
@@ -218,3 +189,4 @@ footer .form-control:focus {
 @import 'modules/_sprite';
 @import 'modules/_separators';
 @import 'modules/_layout';
+@import 'modules/_footer';

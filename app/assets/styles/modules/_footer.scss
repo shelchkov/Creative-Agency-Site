@@ -1,0 +1,33 @@
+footer {
+	background: #312950 url('/assets/images/backdrop-footer.png') no-repeat center center/cover;
+	color: white;
+
+	a {
+		color: white;
+	}
+
+	a:hover {
+		color: darken(white, 15%);
+	}
+
+	.footer-logo {
+		margin-left: 0;
+		color: #00e0d0;
+
+		@media (min-width: 36rem) {
+			margin-left: -30px;
+		}
+
+		@media (min-width: 48rem) {
+			margin-left: 16px;
+		}
+	}
+
+	.form-control {
+		color: white;
+	}
+
+	.form-control:focus {
+		color: white;
+	}
+}
