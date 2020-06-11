@@ -6,6 +6,10 @@ var gulp = require('gulp'),
 gulp.task('sass', function() {
 	return gulp.src('./app/assets/styles/styles.scss')
 		.pipe(sass({ includePaths: "./node_modules"}))
+		.on('error', function(error) {
+			console.log("There was an error. Try running 'gulp icons'.")
+			this.emit('end');
+		})
 		.pipe(postcss([autoprefixer]))
 		.on('error', function(error) {
 			console.log(error);
