@@ -7,6 +7,10 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
 
+body {
+	background-color: #372c5c;
+}
+
 .navbar-light .navbar-nav .nav-link {
 	text-transform: uppercase;
 }

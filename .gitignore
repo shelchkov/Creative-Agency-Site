@@ -30,3 +30,5 @@ dwsync.xml
 
 # Temporary files
 app/temp/
+app/assets/styles/modules/_sprite.scss
+app/assets/images/sprites
