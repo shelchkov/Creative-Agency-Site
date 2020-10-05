@@ -6,31 +6,31 @@ hr {
 	width: 50px;
 }
 
-.separator-bottom {
+.separator__bottom {
 	border-bottom: $separator-style $separator-color;
 
 	@media (max-width: 35.9375rem) {
-		&-sm {
+		&--sm {
 			border-bottom: $separator-style $separator-color;
 		}
 	}
 
 	@media (max-width: 61.9375rem) {
-		&-md {
+		&--md {
 			border-bottom: $separator-style $separator-color;
 		}
 	}
 }
 
-.separator-right {
+.separator__right {
 	@media (min-width: 36rem) and (max-width: 61.9375rem) {
-		&-md {
+		&--md {
 			border-right: $separator-style $separator-color;
 		}
 	}
 
 	@media (min-width: 62rem) {
-		&-lg {
+		&--lg {
 			border-right: $separator-style $separator-color;
 		}
 	}
