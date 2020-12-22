@@ -1,0 +1,15 @@
+#Teams {
+	color: white;
+	background: #312950 url('/assets/images/backdrop-team.png') no-repeat center center/cover;
+}
+
+.team-member {
+	border: 1px solid white;
+	width: 200px;
+
+	.image {
+		background-color: #f5f4f6;
+		width: 100%;
+		height: 200px;
+	}
+}

@@ -1,0 +1,38 @@
+#Testimonials {
+	color: white;
+	background: #312950 url('/assets/images/backdrop-testimonials.png') no-repeat center center/cover;
+
+	.comment {
+		margin-top: -2rem;
+	}
+
+	.user {
+		margin: .2rem;
+		cursor: pointer;
+
+		/* Zoom Out */
+		/* -webkit-transform: scale(.8);
+		-ms-transform: scale(.8);
+		-o-transform: scale(.8);
+		transform: scale(.8); */
+		
+		&:hover {
+		max-width: 70px;
+		/* Zoom In */
+		/* -webkit-transform: scale(1.2);
+		-ms-transform: scale(1.2);
+		-o-transform: scale(1.2);
+		transform: scale(1.2);
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out; */
+	}
+}
+
+@media(max-width: 500px) {
+	img.user {
+		width: 30px;
+	}
+}

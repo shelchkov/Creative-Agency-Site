@@ -1,0 +1,21 @@
+@media(max-width: 500px) {
+	#About img {
+		width: 150px;
+		padding: 0 1rem;
+	}
+}
+
+@media(max-width: 576px) {
+	#About img {
+		display: none;
+	}
+}
+
+@media(max-width: 768px) {
+	#About img {
+		width: 180px;
+		margin-bottom: -3rem;
+		padding: 0;
+		margin: auto;
+	}
+}
