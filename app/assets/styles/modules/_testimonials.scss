@@ -11,14 +11,14 @@
 		cursor: pointer;
 
 		/* Zoom Out */
-		/* transform: scale(.8); */
+		/* transform: scale(.8);
+		transition: all 0.2s ease-in-out; */
 		
 		&:hover {
-		max-width: 70px;
-		/* Zoom In */
-		/* transform: scale(1.2);
-		transition: all 0.2s ease-in-out; */
-	}
+			max-width: 70px;
+			/* Zoom In */
+			/* transform: scale(1.2); */
+		}
 }
 
 @media(max-width: 500px) {
