@@ -1,0 +1,13 @@
+.watch-video {
+	background: $color-purple-2 url('/assets/images/backdrop.png') no-repeat center center/cover;
+	height: 70vh;
+}
+
+.play-video:hover {
+	cursor: pointer;
+}
+
+.watch-story {
+	font-weight: 800;
+	color: white;
+}

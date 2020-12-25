@@ -1,13 +1,13 @@
 footer {
-	background: #312950 url('/assets/images/backdrop-footer.png') no-repeat center center/cover;
+	background: $color-purple-2 url('/assets/images/backdrop-footer.png') no-repeat center center/cover;
 	color: white;
 
 	a {
 		color: white;
-	}
-
-	a:hover {
-		color: darken(white, 15%);
+		
+		&:hover {
+			color: darken(white, 15%);
+		}
 	}
 
 	.footer__logo {
@@ -25,12 +25,12 @@ footer {
 
 	.footer__form__input {
 		color: white;
+	
+		&:focus {
+			color: white;
+		}
 	}
-
-	.footer__form__input:focus {
-		color: white;
-	}
-
+	
 	.footer__subscribe {
 		margin-bottom: 1.9rem;
 

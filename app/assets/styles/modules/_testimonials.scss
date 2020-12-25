@@ -1,0 +1,28 @@
+#Testimonials {
+	color: white;
+	background: $color-purple-2 url('/assets/images/backdrop-testimonials.png') no-repeat center center/cover;
+
+	.comment {
+		margin-top: -2rem;
+	}
+
+	.user {
+		margin: .2rem;
+		cursor: pointer;
+
+		/* Zoom Out */
+		/* transform: scale(.8);
+		transition: all 0.2s ease-in-out; */
+		
+		&:hover {
+			max-width: 70px;
+			/* Zoom In */
+			/* transform: scale(1.2); */
+		}
+}
+
+@media(max-width: 500px) {
+	img.user {
+		width: 30px;
+	}
+}

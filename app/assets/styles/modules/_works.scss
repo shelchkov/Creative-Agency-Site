@@ -1,0 +1,12 @@
+.work {
+	max-width: 380px;
+	min-width: 200px;
+	height: 200px;
+	cursor: pointer;
+}
+
+@media(max-width: 416px) {
+	.work {
+		margin: auto;
+	}
+}
