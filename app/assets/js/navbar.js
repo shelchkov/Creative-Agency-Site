@@ -29,7 +29,7 @@ $('nav a').on('click', function(event) {
     }
   }
 
-  $(".navbar-collapse").collapse("hide");
+  // $(".navbar-collapse").collapse("hide");
 });
 
 
