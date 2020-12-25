@@ -11,6 +11,22 @@ $('nav a').on('click', function(event) {
       },
       800
     );
+
+    const links = $(`nav li a`)
+
+    for (let i = 0; i < links.length; i++) {
+      const { parentElement } = links[i]
+
+      if (parentElement) {
+        parentElement.classList.remove("active")
+      }
+    }
+
+    const { parentElement } = this
+
+    if (parentElement) {
+      parentElement.classList.add("active")
+    }
   }
 
   $(".navbar-collapse").collapse("hide");
