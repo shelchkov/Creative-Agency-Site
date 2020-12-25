@@ -11,12 +11,15 @@ users.on("click", function(event) {
   var element = event.target.attributes["1"].value;
   var numElem = element.split(".png")[0].split("-")[1];
   
-  for(user of users) {
-    user.width = "45";
+  for (let i = 0; i < users.length; i++) {
+    users[i].width = "45";
   }
-  users[numElem - 1].width = "70";
 
-  $("#Testimonials .comment").html(testimonials[numElem - 1].comment);
-  $("#Testimonials .name").html(testimonials[numElem - 1].name);
-  $("#Testimonials .position").html(testimonials[numElem - 1].position);
+  if (numElem) {
+    users[numElem - 1].width = "70";
+
+    $("#Testimonials .comment").html(testimonials[numElem - 1].comment);
+    $("#Testimonials .name").html(testimonials[numElem - 1].name);
+    $("#Testimonials .position").html(testimonials[numElem - 1].position);
+  }
 });

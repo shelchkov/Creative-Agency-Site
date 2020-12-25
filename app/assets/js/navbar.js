@@ -12,17 +12,17 @@ $('nav a').on('click', function(event) {
       800
     );
 
-    const links = $(`nav li a`)
+    const links = $("nav li a")
 
     for (let i = 0; i < links.length; i++) {
-      const { parentElement } = links[i]
+      const parentElement = links[i].parentElement
 
       if (parentElement) {
         parentElement.classList.remove("active")
       }
     }
 
-    const { parentElement } = this
+    const parentElement = this.parentElement
 
     if (parentElement) {
       parentElement.classList.add("active")
